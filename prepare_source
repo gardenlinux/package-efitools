@@ -1,0 +1,3 @@
+git_src --branch debian/1.9.2-3 https://salsa.debian.org/efi-team/efitools.git
+cp arm64.patch "$dir/src/debian/patches/"
+echo arm64.patch >> "$dir/src/debian/patches/series"
